@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<style>
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+
+    }
+
+
+    .banner {
+        border: 2px solid burlywood;
+        border-radius: 10px;
+        padding: 15px;
+        color: black;
+
+    }
+
+    .banner img {
+        width: 75%;
+
+    }
+
+    .link-botton {
+        text-decoration: none;
+        background-image: linear-gradient(orange, tomato);
+        padding: 10px 40px;
+        color: white;
+        font-weight: 700;
+        border-radius: 5px;
+
+    }
+
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+    }
+
+    .login-form input {
+        margin-top: 1rem;
+        font-size: 1.5em;
+        padding: 5px 10px;
+    }
+
+    .login-form input[type="submit"] {
+        background-color: red;
+        border: 0;
+        border-radius: 5px;
+        color: whitesmoke;
+        font-weight: 700;
+
+    }
+
+    .login-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+
+    }
+
+    .course .course-banner img {
+        height: 104px;
+        width: 224px;
+
+    }
+
+    .fa-star {
+        font-size: 12px;
+
+    }
+
+    .fa-star.filled {
+        color: #FFc014;
+
+    }
+
+    .fa-star.empty {
+        color: black;
+
+
+    }
+
+    hr {
+        border: 1px solid silver;
+        margin-bottom: 27px;
+    }
+
+
+    nav a {
+
+        text-decoration: none;
+        color: black;
+        margin-right: 10px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    /* @media screen and (max-width:576px) {
+        .container {
+            grid-template-columns: repeat(1, fr);
+        }
+    }
+
+    @media screen and (min-width:577px) and (max-width:992px) {
+        .container {
+            grid-template-columns: repeat(2, fr);
+        }
+    } */
+</style>
+
+<body>
+    ` <div class="container">
+        <div class="banner">
+            <img src="Banner Image.png">
+            <h1>The Greatest show on the earth</h1>
+            <p>contrary to popular belief,Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, nam?</p>
+            <button class="link-button">Watch Live</button>
+        </div>
+    </div>
+    <section class="login-container">
+        <form class="login-form">
+
+            <input type="Upcoming Match" name="" id="" placeholder="Upcoming Match" required>
+            <input type="All Group" name="" id="" placeholder="All Group" required>
+            <input type="submit" value="login">
+        </form>
+    </section>
+    <section class="container">
+
+        <div class="courses">
+            <div class="course">
+                <div class="course-banner">
+                    <img src="Blog Image.png" alt="">
+
+                </div>
+                <div class="course-details">
+                    <h3 class="course-title">
+                        Transfer Live:Chlesea in talks over kimpenbe transfer
+                    </h3>
+
+                    <div class="course-info">
+                        <div>
+                            <i class="chat icon filled"></i>
+                            <i class="fa-regular fa-star filled"></i>
+                            <i class="fa-regular fa-star filled"></i>
+                            <i class="fa-regular fa-star empty"></i>
+                        </div>
+                        <p>4.5</p>
+                        <div class="course-duration"><i class="fa-regular fa-clock">1.30hr</i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="courses">
+                <div class="course">
+                    <div class="course-banner">
+                        <img src="Blog Image.png" alt="">
+
+                    </div>
+                    <div class="course-details">
+                        <h3 class="course-title">
+                            <h3 class="course-title">
+                                Transfer Live:Chlesea in talks over kimpenbe transfer
+                            </h3>
+                        </h3>
+
+                        <div class="course-info">
+                            <div>
+                                <i class="chat icon filled"></i>
+                                <i class="fa-regular fa-star filled"></i>
+                                <i class="fa-regular fa-star filled"></i>
+                                <i class="fa-regular fa-star empty"></i>
+                            </div>
+
+                            <div class="course-duration"><i class="fa-regular fa-clock">10hr</i>
+                                <p>23</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses">
+                    <div class="course">
+                        <div class="course-banner">
+                            <img src="Blog Image.png" alt="">
+
+                        </div>
+                        <div class="course-details">
+                            <button>Transfer</button>
+                        </div>
+                        <h3 class="course-title">
+                            Transfer Live:Chlesea in talks over kimpenbe transfer
+                        </h3>
+
+                        <div class="course-info">
+                            <div>
+                                <i class="chat icon filled"></i>
+                                <i class="fa-regular fa-star filled"></i>
+                                <i class="fa-regular fa-star filled"></i>
+                                <i class="fa-regular fa-star empty"></i>
+                            </div>
+
+                            <div class="course-duration"><i class="fa-regular fa-clock">10hr</i>
+                                <p>23</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses">
+                    <div class="course">
+                        <div class="course-banner">
+                            <img src="Blog Image.png" alt="">
+
+                        </div>
+                        <div class="course-details">
+                            <button>Transfer</button>
+                            <h3 class="course-title">
+                                Transfer Live:Chlesea in talks over kimpenbe transfer
+                            </h3>
+
+                            <div class="course-info">
+                                <div>
+                                    <i class="chat icon filled"></i>
+                                    <i class="fa-regular fa-star filled"></i>
+                                    <i class="fa-regular fa-star filled"></i>
+                                    <i class="fa-regular fa-star empty"></i>
+                                </div>
+
+                                <div class="course-duration"><i class="fa-regular fa-clock">10hr</i>
+                                    <p>23</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="courses">
+                        <div class="course">
+                            <div class="course-banner">
+                                <img src="Blog Image.png" alt="">
+
+                            </div>
+                            <div class="course-details">
+                                <button>Transfer</button>
+                                <h3 class="course-title">
+                                    Transfer Live:Chlesea in talks over kimpenbe transfer
+                                </h3>
+
+                                <div class="course-info">
+                                    <div>
+                                        <i class="chat icon filled"></i>
+                                        <i class="fa-regular fa-star filled"></i>
+                                        <i class="fa-regular fa-star filled"></i>
+                                        <i class="fa-regular fa-star empty"></i>
+                                    </div>
+
+                                    <div class="course-duration"><i class="fa-regular fa-clock">10hr</i>
+                                        <p>23</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="courses">
+                            <div class="course">
+                                <div class="course-banner">
+                                    <img src="Blog Image.png" alt="">
+
+                                </div>
+                                <div class="course-details">
+                                    <button>Transfer</button>
+                                </div>
+                                <h3 class="course-title">
+                                    Transfer Live:Chlesea in talks over kimpenbe transfer
+                                </h3>
+
+                                <div class="course-info">
+                                    <div>
+                                        <i class="chat icon filled"></i>
+                                        <i class="fa-regular fa-star filled"></i>
+                                        <i class="fa-regular fa-star filled"></i>
+                                        <i class="fa-regular fa-star empty"></i>
+                                    </div>
+                                    <p>23</p>
+                                    <div class="course-duration"><i class="fa-regular fa-clock">10hr</i>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <section class=" Container">
+                        <h2>Goal</h2>
+                        <header>
+                            <nav>
+                                <span>
+
+                                    <a href="">Home</a>
+                                    <a href="">Tutorial</a>
+                                    <a href="">About-me</a>
+                                </span>
+                                <span>
+                                    <a href=""><i class="fa-solid fa-user"></i></a>
+                                    <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+                                </span>
+
+                            </nav>
+                </div>
+    </section>
+</body>
+
+</html>
